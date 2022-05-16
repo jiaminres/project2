@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .download {
+            position: relative;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .point {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            width: 20%;
+            height: 20%;
+            border-radius: 50%;
+            background-color: #787878;
+            transform: translateX(-50%);
+            transform-origin: 50% 200%;
+        }
+
+        .download .point:nth-child(1) {
+            transform: translateX(-50%) rotate(0deg);
+            animation: cache 1s 0s infinite;
+        }
+
+        .download .point:nth-child(2) {
+            transform: translateX(-50%) rotate(45deg);
+            animation: cache 1s 0.125s infinite;
+        }
+
+        .download .point:nth-child(3) {
+            transform: translateX(-50%) rotate(90deg);
+            animation: cache 1s 0.25s infinite;
+        }
+
+        .download .point:nth-child(4) {
+            transform: translateX(-50%) rotate(135deg);
+            animation: cache 1s 0.375s infinite;
+        }
+
+        .download .point:nth-child(5) {
+            transform: translateX(-50%) rotate(180deg);
+            animation: cache 1s 0.5s infinite;
+        }
+
+        .download .point:nth-child(6) {
+            transform: translateX(-50%) rotate(225deg);
+            animation: cache 1s 0.625s infinite;
+        }
+
+        .download .point:nth-child(7) {
+            transform: translateX(-50%) rotate(270deg);
+            animation: cache 1s 0.75s infinite;
+        }
+
+        .download .point:nth-child(8) {
+            transform: translateX(-50%) rotate(315deg);
+            animation: cache 1s 0.875s infinite;
+        }
+
+
+
+        @keyframes cache {
+            from {
+                width: 20%;
+                height: 20%;
+                background-color: #787878;
+            }
+
+            to {
+                width: 25%;
+                height: 25%;
+                background-color: #fff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="download">
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+    </div>
+</body>
+
+</html>

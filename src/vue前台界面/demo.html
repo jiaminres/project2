@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "icomoon";
+            src: url("/font/fonts/icomoon.eot?f88m88");
+            src: url("/font/fonts/icomoon.eot?f88m88#iefix") format("embedded-opentype"),
+                url("/font/fonts/icomoon.ttf?f88m88") format("truetype"),
+                url("/font/fonts/icomoon.woff?f88m88") format("woff"),
+                url("/font/fonts/icomoon.svg?f88m88#icomoon") format("svg");
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        /* div {
+            box-sizing: border-box;
+        } */
+
+        i {
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        table {
+            border-width: 0px;
+        }
+
+        .msg {
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            background-color: rgba(245, 245, 245);
+        }
+
+        .b {
+            float: left;
+            margin-left: 100px;
+            /* xx */
+            margin-bottom: 50px;
+            width: 980px;
+            height: 500px;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .ti {
+            float: left;
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: normal;
+            color: #212121;
+        }
+
+        .join-total {
+            float: left;
+            position: absolute;
+            margin-left: 136px;
+            color: #626262;
+            font-size: 14px;
+        }
+
+        .g {
+            float: left;
+            margin-left: 16px;
+            margin-top: 8px;
+        }
+
+        .g img {
+            width: 225px;
+            height: 130px;
+            vertical-align: middle;
+            background-color: red;
+        }
+
+        .g h1 {
+            font-size: 14px;
+            color: #212121;
+            text-align: center;
+            font-weight: normal;
+            margin: 10px;
+            overflow: hidden;
+            width: 205px;
+            text-overflow: ellipsis;
+            height: 22px;
+            white-space: nowrap;
+        }
+
+        .add {
+            float: right;
+            height: 30px;
+            width: 120px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        #sure {
+            float: right;
+            margin-right: 10px;
+            margin-top: 10px;
+            width: 90px;
+            height: 30px;
+            border: 1px solid #cdcfd0;
+            cursor: pointer;
+            color: white;
+            background-color: #12b7f5;
+        }
+
+        #search {
+            float: right;
+            margin-right: 10px;
+            margin-top: 10px;
+            height: 28px;
+            outline: none;
+            background-color: #f5f5f5;
+            border: 1px solid #cdcfd0;
+        }
+
+        .return {
+            width: 100px;
+            height: 30px;
+            color: #12b7f5;
+            border: 1px solid #12b7f5;
+            border-radius: 6px;
+            background-color: #fff;
+        }
+
+        .back {
+            width: 100px;
+            height: 30px;
+            color: #cfcfcf;
+            border: 1px solid #cfcfcf;
+            border-radius: 6px;
+            background-color: #fff;
+            margin-left: 10px;
+        }
+
+        #none {
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            top: 50px;
+            transform: translateX(-50%);
+
+        }
+
+        #none i {
+            display: inline-block;
+            margin-left: 8px;
+            margin-bottom: 6px;
+            color: #bfb5bd;
+        }
+
+        #one button {
+            position: relative;
+            left: 30px;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="b">
+        <div style="height: 50px; line-height: 50px">
+            <h1 class="ti">我加入的群组</h1>
+            <p class="join-total">数量</p>
+            <button class="add" type="button" style="display: none">添加群组</button>
+            <!-- 互斥 -->
+            <input id="search" type="text" placeholder="输入你要加入的群组的群号">
+            <button id="sure">确认</button>
+        </div>
+        <hr />
+        <!-- 没有加入任何群组 -->
+        <h1 class="msg" v-if="msg != ''" style="display: none">提示信息</h1>
+
+        <!-- 找不到群组 -->
+        <div id="none" style="display: none">
+            <i>没有找到群组</i>
+            <br />
+            <button class="return">返回</button>
+        </div>
+
+        <!-- 找得到群组 -->
+        <div id="one">
+            <div class="g">
+                <a>
+                    <img src="./用户2.jpeg" />
+                </a>
+                <a>
+                    <h1>群名</h1>
+                </a>
+            </div>
+            <button class="return">确认</button>
+            <button class="back">返回</button>
+        </div>
+
+    </div>
+
+    <div class="g" style="display: none">
+        <a>
+            <img src="./用户2.jpeg" />
+        </a>
+        <a>
+            <h1>群名</h1>
+        </a>
+    </div>
+    <div class="g" style="display: none">
+        <a>
+            <img src="./用户2.jpeg" />
+        </a>
+        <a>
+            <h1>群名</h1>
+        </a>
+    </div>
+    <div class="g" style="display: none">
+        <a>
+            <img src="./用户2.jpeg" />
+        </a>
+        <a>
+            <h1>群名</h1>
+        </a>
+    </div>
+    </div>
+    <div class="b">
+        <div style="height: 50px; line-height: 50px">
+            <h1 class="ti">我管理的群组</h1>
+            <p class="join-total">数量</p>
+            <button class="add" type="button">创建群组</button>
+        </div>
+        <hr />
+        <!-- 没有加入任何群组 -->
+        <h1 class="msg" v-if="msg != ''">提示信息</h1>
+
+        <div class="g">
+            <a>
+                <img src="./用户2.jpeg" />
+            </a>
+            <a>
+                <h1>群名</h1>
+            </a>
+        </div>
+
+
+
+
+        <script>
+            let a = [1, 2, 3]
+
+            let res = []
+
+            res.push(a)
+
+            a.pop()
+
+            console.log(res);
+        </script>
+</body>
+
+</html>

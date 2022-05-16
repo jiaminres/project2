@@ -1,0 +1,20 @@
+server:
+  port: 80
+spring:
+  application:
+#    Eureka需要注册进来的微服务有自己的名字
+    name: downServer
+eureka:
+  client:
+#    是否将自己注册进Eureka服务器中
+    register-with-eureka: true
+#    是否拉取Eureka服务器中的内容
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002:7002/eureka/
+
+  instance:
+    #  更改eureka页面的服务的主机名
+    instance-id: jiamin
+    #  页面点击链接显示真实ip地址
+    prefer-ip-address: true

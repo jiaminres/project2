@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-eureka1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/daoServer-zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/daoServer-zookeeper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/daoSever/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/daoSever/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer-zookeeper-hystrixDashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer-zookeeper-hystrixDashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer-zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer-zookeeper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/downServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socket/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

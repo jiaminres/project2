@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jiamin.mappers.RecordMapper">
+<!--    <cache type="com.jiamin.config.MyRedisClusterCache"></cache>-->
+    <resultMap id="record" type="org.example.common.entity.Record">
+          <result column="groupID" property="groupID"/>
+          <result column="sourceID" property="sourceID"/>
+          <result column="targetID" property="targetID"/>
+          <result column="time" property="time" jdbcType="TIMESTAMP" javaType="long"/>
+          <result column="message" property="message"/>
+    </resultMap>
+    <select id="selectRecord" resultMap="record">
+        select * from record where groupID = #{groupID} and `time` &lt; #{time, jdbcType=TIMESTAMP} and(sourceID = #{userID} and targetID = #{oppositeID}
+                                                              or
+                                                             sourceID = #{oppositeID} and targetID = #{userID})
+                                                             order by time desc limit 30
+    </select>
+
+    <select id="selectRecordSum" resultType="_int">
+        select count(1) from record where groupID = #{groupID} and (sourceID = #{userID} and targetID = #{oppositeID}
+                                                                    or
+                                                                    sourceID = #{oppositeID} and targetID = #{userID})
+    </select>
+
+<!--    <insert id="insertOneRecord">-->
+<!--        insert into record values(#{groupID},#{userID},#{time},#{message},#{direction})-->
+<!--    </insert>-->
+</mapper>

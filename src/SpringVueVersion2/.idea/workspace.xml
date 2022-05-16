@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15a98e3b-099c-45bb-b85d-6cf150fcc840" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="spring-beans.schema" />
+        <option value="GuiceNewModule" />
+        <option value="HTML File" />
+        <option value="mapper" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\environment\apache-maven-3.8.2\maven-repo" />
+        <option name="userSettingsFile" value="D:\environment\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25PLx8BvvHiyx0IZgxdqc6JMq6q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/socket/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30034524" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\unit\SpringVueVersion2\socket\src\main\resources" />
+      <recent name="D:\java\unit\SpringVueVersion2\downServer-zookeeper\src\main\resources\public" />
+      <recent name="D:\java\unit\SpringVueVersion2\downServer-zookeeper\src\main\resources\public\css" />
+      <recent name="D:\java\unit\SpringVueVersion2\downServer-zookeeper\src\main\resources\public\js" />
+      <recent name="D:\java\unit\SpringVueVersion2\daoServer-zookeeper\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiamin.NioServer.pojo" />
+      <recent name="com.jiamin.config" />
+      <recent name="com.out.cofig" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HeapOutOfMemory">
+    <configuration name="HeapOutOfMemory" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heapdemo.HeapOutOfMemory" />
+      <module name="exp" />
+      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heapdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiamin.Main" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiamin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiamin.NioServer.Main" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiamin.NioServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapOutOfMemory.test1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heapdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heapdemo" />
+      <option name="MAIN_CLASS_NAME" value="heapdemo.HeapOutOfMemory" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Xms20M -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapOutOfMemory.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heapdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heapdemo" />
+      <option name="MAIN_CLASS_NAME" value="heapdemo.HeapOutOfMemory" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="daoServer-zookeeper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.DaoServerZkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="daoServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.DaoServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="daoSever" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.DaoServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="downServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.DownServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownServerZkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="downServer-zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiamin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.DownServerZkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.Eureka1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.Eureka2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardConfig" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="downServer-zookeeper-hystrixDashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiamin.HystrixDashboardConfig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HeapOutOfMemory" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.HeapOutOfMemory.test1" />
+      <item itemvalue="Spring Boot.Eureka2Application" />
+      <item itemvalue="Spring Boot.Eureka1Application" />
+      <item itemvalue="Spring Boot.DaoServerApplication" />
+      <item itemvalue="Spring Boot.DaoServerApplication (1)" />
+      <item itemvalue="Spring Boot.HystrixDashboardConfig" />
+      <item itemvalue="Spring Boot.DownServerApplication" />
+      <item itemvalue="Spring Boot.DaoServerApplication (2)" />
+      <item itemvalue="Spring Boot.DownServerZkApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DownServerZkApplication" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15a98e3b-099c-45bb-b85d-6cf150fcc840" name="Changes" comment="" />
+      <created>1645424020003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645424020003</updated>
+      <workItem from="1645424021422" duration="3100000" />
+      <workItem from="1645435318563" duration="2408000" />
+      <workItem from="1645438612447" duration="1594000" />
+      <workItem from="1645440234112" duration="904000" />
+      <workItem from="1645441632848" duration="853000" />
+      <workItem from="1645442513194" duration="9650000" />
+      <workItem from="1645455672810" duration="1977000" />
+      <workItem from="1645503386191" duration="6361000" />
+      <workItem from="1645510799077" duration="1293000" />
+      <workItem from="1645512895388" duration="5635000" />
+      <workItem from="1645769632755" duration="17586000" />
+      <workItem from="1645840789386" duration="3805000" />
+      <workItem from="1646107862450" duration="25667000" />
+      <workItem from="1646192529006" duration="22050000" />
+      <workItem from="1646380475032" duration="21967000" />
+      <workItem from="1646477738689" duration="35729000" />
+      <workItem from="1646619876324" duration="1865000" />
+      <workItem from="1646703678295" duration="24746000" />
+      <workItem from="1646875524692" duration="16105000" />
+      <workItem from="1646970484554" duration="35043000" />
+      <workItem from="1647075141144" duration="4812000" />
+      <workItem from="1647084954461" duration="1994000" />
+      <workItem from="1647089170747" duration="6862000" />
+      <workItem from="1647159725294" duration="7686000" />
+      <workItem from="1647223925827" duration="12117000" />
+      <workItem from="1647247429815" duration="12138000" />
+      <workItem from="1647323835643" duration="23091000" />
+      <workItem from="1647516317549" duration="14496000" />
+      <workItem from="1647595204166" duration="26716000" />
+      <workItem from="1647848407146" duration="12654000" />
+      <workItem from="1647876716136" duration="2801000" />
+      <workItem from="1647880442868" duration="3550000" />
+      <workItem from="1647910893114" duration="43937000" />
+      <workItem from="1648090111144" duration="3981000" />
+      <workItem from="1648096730241" duration="20607000" />
+      <workItem from="1648177717065" duration="22978000" />
+      <workItem from="1648306225192" duration="7506000" />
+      <workItem from="1648370387025" duration="4504000" />
+      <workItem from="1648379107214" duration="10162000" />
+      <workItem from="1648435044000" duration="46683000" />
+      <workItem from="1648608047284" duration="8656000" />
+      <workItem from="1648694241621" duration="13309000" />
+      <workItem from="1648776464681" duration="11913000" />
+      <workItem from="1648879452715" duration="10239000" />
+      <workItem from="1648951849057" duration="12750000" />
+      <workItem from="1649157640894" duration="14410000" />
+      <workItem from="1649304579838" duration="7007000" />
+      <workItem from="1649342109346" duration="17065000" />
+      <workItem from="1649478792279" duration="18425000" />
+      <workItem from="1649558216468" duration="26030000" />
+      <workItem from="1649728851978" duration="482000" />
+      <workItem from="1649729353213" duration="26567000" />
+      <workItem from="1649782233820" duration="567000" />
+      <workItem from="1649814635480" duration="35629000" />
+      <workItem from="1649902718887" duration="17022000" />
+      <workItem from="1649946932004" duration="4916000" />
+      <workItem from="1649991606381" duration="17062000" />
+      <workItem from="1650525515878" duration="2438000" />
+      <workItem from="1650543180850" duration="475000" />
+      <workItem from="1650543677014" duration="354000" />
+      <workItem from="1650544047922" duration="3149000" />
+      <workItem from="1650550440781" duration="626000" />
+      <workItem from="1650605939922" duration="9151000" />
+      <workItem from="1650696790991" duration="10300000" />
+      <workItem from="1650725887119" duration="42172000" />
+      <workItem from="1650900994229" duration="24620000" />
+      <workItem from="1651027313908" duration="5192000" />
+      <workItem from="1651110942916" duration="22327000" />
+      <workItem from="1651160188367" duration="12547000" />
+      <workItem from="1651292061527" duration="45172000" />
+      <workItem from="1651494942873" duration="3094000" />
+      <workItem from="1651555849829" duration="7238000" />
+      <workItem from="1651746890849" duration="2150000" />
+      <workItem from="1651803725893" duration="10630000" />
+      <workItem from="1651882615533" duration="30306000" />
+      <workItem from="1651980032740" duration="28249000" />
+      <workItem from="1652085491805" duration="19670000" />
+      <workItem from="1652163536563" duration="25917000" />
+      <workItem from="1652254144206" duration="4312000" />
+      <workItem from="1652324423760" duration="3590000" />
+      <workItem from="1652328211745" duration="1470000" />
+      <workItem from="1652444673699" duration="3507000" />
+      <workItem from="1652549725291" duration="73000" />
+      <workItem from="1652678022051" duration="314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/downServer/src/main/java/com/jiamin/controller/LoginController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/downServer/src/main/java/com/jiamin/controller/GreetingController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daoServer-zookeeper/src/main/java/com/jiamin/config/RedisClusterConfig.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webSocket/src/main/java/structure/demo/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../environment/apache-maven-3.8.2/maven-repo/org/mybatis/mybatis/3.5.7/mybatis-3.5.7-sources.jar!/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../environment/apache-maven-3.8.2/maven-repo/org/mybatis/mybatis/3.5.7/mybatis-3.5.7-sources.jar!/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../environment/apache-maven-3.8.2/maven-repo/org/mybatis/mybatis/3.5.7/mybatis-3.5.7-sources.jar!/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../environment/apache-maven-3.8.2/maven-repo/org/mybatis/mybatis/3.5.7/mybatis-3.5.7-sources.jar!/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
+          <line>354</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../environment/apache-maven-3.8.2/maven-repo/org/mybatis/mybatis/3.5.7/mybatis-3.5.7-sources.jar!/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webSocket/src/main/java/spring/demo/demo.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/src/main/java/com/jiamin/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exp/src/main/java/heapdemo/HeapOutOfMemory.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/src/main/java/com/jiamin/NioServer/server80/MyHttpRequestHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/src/main/java/com/jiamin/NioServer/server80/MyHttpRequestHandler.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/src/main/java/com/jiamin/NioServer/server80/MyHttpRequestHandler.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daoServer-zookeeper/src/main/java/com/jiamin/DaoServerZkApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exp/src/main/java/heapdemo/HeapOutOfMemory.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exp/src/main/java/heapdemo/HeapOutOfMemory.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web/src/main/java/Main.java</url>
+          <line>41</line>
+          <properties class="Main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/downServer-zookeeper/src/main/java/com/jiamin/DownServerZkApplication.java</url>
+          <line>11</line>
+          <properties class="com.jiamin.DownServerZkApplication" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="structure.demo.SPlayTree$SplayTreeNode" memberName="element" />
+        <PinnedItemInfo parentTag="spring.demo.demo$ListNode" memberName="next" />
+        <PinnedItemInfo parentTag="spring.demo.demo$LeftHeap" memberName="left" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringVueVersion2$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1647612642030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>structure.demo.*</FILTER>
+    </SUITE>
+  </component>
+</project>

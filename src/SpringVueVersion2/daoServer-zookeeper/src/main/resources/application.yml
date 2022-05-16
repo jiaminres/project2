@@ -1,0 +1,43 @@
+server:
+#  port: 8080
+   port: 8081
+spring:
+  application:
+    #     Zookeeper结点名字
+    name: daoServer
+  datasource:
+    url: jdbc:mysql://localhost:3306/jiamin?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: nvzhuangdalao1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    student:
+      url: jdbc:mysql://localhost:3306/student?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: nvzhuangdalao1
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+#    对应Linux的Zookeeper集群
+  cloud:
+    zookeeper:
+      connect-string: 192.168.20.168:2181,192.168.20.168:2182,192.168.20.168:2183
+  redis:
+    cluster:
+      ports:
+        - 8001
+        - 8002
+        - 8003
+        - 8004
+        - 8005
+        - 8006
+        - 8007
+        - 8008
+      host: 192.168.20.168
+      poolConfig:
+        max-total: 8
+        max-idle: 8
+        max-wait-millis: -1
+        min-idle: 0
+

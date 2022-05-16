@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="downServer-zookeeper-hystrixDashboard" />
+        <module name="daoSever" />
+        <module name="websocket" />
+        <module name="downServer" />
+        <module name="cloud-eureka1" />
+        <module name="cloud-eureka2" />
+        <module name="daoServer-zookeeper" />
+        <module name="socket" />
+        <module name="exp" />
+        <module name="downServer-zookeeper" />
+        <module name="daoServer" />
+        <module name="common-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="web" target="1.5" />
+      <module name="webSocket" target="1.8" />
+      <module name="websocket" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

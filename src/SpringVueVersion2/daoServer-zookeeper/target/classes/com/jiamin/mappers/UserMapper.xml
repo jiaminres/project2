@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jiamin.mappers.UserMapper">
+<!--    <cache type="com.jiamin.config.MyRedisClusterCache"></cache>-->
+    <select id="selectAllUsersExceptOwn" resultType="org.example.common.entity.User">
+        select * from `user` where userID in (select userID from user_group where groupID = #{groupID} and userID != #{userID})
+    </select>
+
+    <select id="selectUserForLogin" resultType="org.example.common.entity.User">
+        select * from `user` where userID = #{userID} and password = #{password}
+    </select>
+
+    <insert id="insertOneUser">
+        insert into `user`(userID,password,userName,HeadImageAddress) values(#{userID},#{password},#{userName},#{headImageAddress})
+    </insert>
+    
+    <update id="modifyUserName">
+        update `user` set userName = #{userName} where userID = #{userID}
+    </update>
+
+    <update id="modifyHeadImageAddress">
+        update `user` set headImageAddress = #{headImageAddress} where userID = #{userID}
+    </update>
+</mapper>

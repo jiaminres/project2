@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jiamin.mappers.GroupMapper">
+<!--    <cache type="com.jiamin.config.MyRedisClusterCache"></cache>-->
+    <select id="selectGroup" resultType="org.example.common.entity.Group">
+        select * from `group` where groupID in (select groupID from user_group where userID = #{userID});
+    </select>
+    <insert id="insertOneGroup">
+        insert into `group`values(#{groupID},#{leaderID},#{groupName},#{headImageAddress})
+    </insert>
+    <insert id="addUserIntoGroup" >
+        insert into user_group values(#{userID}, #{groupID})
+    </insert>
+    <select id="searchGroup" resultType="org.example.common.entity.Group">
+        select * from `group` where groupID = #{groupID};
+    </select>
+
+</mapper>

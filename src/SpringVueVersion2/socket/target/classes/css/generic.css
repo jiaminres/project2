@@ -1,0 +1,353 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../font/fonts/icomoon.eot?f88m88');
+    src: url('../font/fonts/icomoon.eot?f88m88#iefix') format('embedded-opentype'),
+    url('../font/fonts/icomoon.ttf?f88m88') format('truetype'),
+    url('../font/fonts/icomoon.woff?f88m88') format('woff'),
+    url('../font/fonts/icomoon.svg?f88m88#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    box-sizing: border-box;
+    /* border-radius: 20px; */
+}
+
+i {
+    font-style: normal;
+}
+
+table {
+    border-width: 0px;
+}
+
+#nav {
+    height: 30px;
+    background-color: #12b7f5;
+    color: #fff;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+    line-height: 30px;
+}
+
+
+
+#nav li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+#app {
+    height: 690px;
+}
+
+#app>div {
+    float: left;
+    height: 690px;
+}
+
+#privateChatBox {
+    width: 50%;
+    background-color: #ebebeb;
+}
+
+#chatBox {
+    position: relative;
+    left: -35%;
+    top: 50px;
+    margin-left: 50%;
+    width: 70%;
+    height: 570px;
+    /* background-color: brown; */
+}
+
+#showBox {
+    overflow: auto;
+    height: 340px;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+}
+
+#showBox .oppositeUser,
+#showBox .user {
+    position: relative;
+}
+
+#showBox .oppositeUser {
+    margin-left: 15px;
+}
+
+#showBox .user {
+    margin-right: 15px;
+}
+
+#showBox .oppositeUser .oppositeUserImage,
+#showBox .user .userImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: text-top;
+}
+
+
+#showBox .user .bind {
+    /* 这里转化为行内块元素，这样</br>不会另起一行 */
+    display: inline-block;
+    position: relative;
+    left: calc(100% - 50px);
+}
+
+
+#showBox .oppositeUser .oppositeUserName,
+#showBox .user .userName {
+    font-size: 10px;
+    color: #7f7f7f;
+}
+
+#showBox .oppositeUser .oppositeUserName {
+    padding-left: 5px;
+}
+
+#showBox .user .userName {
+    padding-right: 5px;
+}
+
+#showBox .oppositeUser .widthLimit,
+#showBox .user .widthLimit {
+    position: relative;
+    width: 70%;
+}
+
+#showBox .user .widthLimit {
+    left: 30%;
+}
+
+#showBox .oppositeUser .oppositeUserMessage,
+#showBox .user .userMessage {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+#showBox .oppositeUser .oppositeUserMessage {
+    background-color: #e5e5e5;
+}
+
+#showBox .user .userMessage {
+    background-color: #12b7f5;
+    color: #fff;
+}
+
+#showBox .oppositeUser .oppositeUserMessage {
+    /* left: 36px; */
+    margin-left: 36px;
+}
+
+#showBox .user .userMessage {
+    margin-right: 36px;
+}
+
+#showBox .oppositeUser .triangle,
+#showBox .user .triangle {
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    border-top: 5px solid transparent;
+
+}
+
+#showBox .oppositeUser .triangle {
+    left: 25px;
+    transform: rotate(35deg);
+    border-right: 15px solid #e5e5e5;
+}
+
+#showBox .user .triangle {
+    right: 25px;
+    transform: rotate(145deg);
+    border-right: 15px solid #12b7f5;
+}
+
+#showBox #defaultShowBox {
+    /* 需改动____________________ */
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#showBox  h1 {
+    /* 需改动____________________ */
+    display: block;
+    position: absolute;
+    left: -45px;
+    top: 155px;
+    margin-left: 50%;
+    font: 30px "Microsoft YaHei"
+}
+
+#showBox #defaultShowBox td
+{
+    /* width: 20%; */
+    height: 68px;
+    border-radius: 20px;
+    background-color: #efefef;
+    border-spacing: 0;
+
+}
+
+
+#userChooseBox {
+    position: relative;
+    height: 20px;
+    border: 1px #ebebeb solid;
+    background-color: #fff
+}
+#userChooseBox .user:hover {
+    border: 1px solid #12b7f5;
+    background-color: #fff;
+    color:#12b7f5;
+}
+#userChooseBox .user {
+    float: left;
+    border: 0;
+    padding: 0 5px 0;
+    height: 18px;
+    border-radius: 15px;
+    line-height: 18px;
+    color: #cab4b4;
+}
+
+#userChooseBox .selected {
+    border: 1px solid #12b7f5;
+    background-color: #fff;
+    color:#12b7f5;
+}
+#userChooseBox .offline {
+    background-color: #000;
+    color: red;
+}
+#userChooseBox .laba {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    border-radius: 10px;
+    font-family: "icomoon";
+    font-size: 20px;
+    color: #fff000;
+    background-color: #000;
+    cursor: pointer;
+
+}
+
+#editBox {
+    position: relative;
+    height: 210px;
+    background-color: #ffffff;
+}
+
+#editBox #close,
+#editBox #send {
+    position: absolute;
+    right: 110px;
+    bottom: 10px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #cdcfd0;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#editBox #send {
+    right: 10px;
+    color: white;
+    background-color: #12b7f5;
+}
+
+#publicChatBox {
+    width: 25%;
+}
+
+#publicChatBox #laba {
+    height: 24px;
+    background-color: #1e242e;
+}
+
+#publicChatBox #laba #signal {
+    position: relative;
+    top: 3px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #e9de8e;
+    border-radius: 2px;
+    background-color: #383121;
+    color: #fff000;
+    text-align: center;
+    line-height: 20px;
+}
+
+#publicChatBox #p_showBox {
+    border: 5px solid #4a3b26;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    height: 432px;
+    line-height: 25px;
+    overflow: auto;
+    word-wrap: break-word;
+    background-color: #0b0c10;
+    color: #fff000;
+}
+
+
+#publicChatBox #p_showBox::-webkit-scrollbar {
+    background-color: #0b0c10;
+    width: 5px;
+
+}
+
+#publicChatBox #p_showBox::-webkit-scrollbar-thumb {
+    background-color: #4a3b26;
+    border-radius: 2px;
+}
+#publicChatBox #extraTool {
+    float: left;
+    width: 100%;
+    height: 230px;
+    background-color: #fff;
+}
+
+#inc {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#dec {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+
+}

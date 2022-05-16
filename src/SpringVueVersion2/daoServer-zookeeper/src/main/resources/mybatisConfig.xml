@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- 以下两个配置完成懒加载配置-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="lazyLoadTriggerMethods" value=""/>
+        <!--  开启驼峰命名法-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+
+    <typeHandlers>
+        <typeHandler handler="com.jiamin.typeHandler.LongToDateTimeHandler"/>
+        <typeHandler handler="com.jiamin.typeHandler.LongToDateHandler"/>
+    </typeHandlers>
+</configuration>

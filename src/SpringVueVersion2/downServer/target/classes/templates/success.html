@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/autoScroll.js"></script>
+    <script src="js/privateSend.js"></script>
+    <script src="js/jsstyle.js"></script>
+    <script src="js/publicSend.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/generic.css" />
+</head>
+
+<body>
+<div id="nav">
+    <ul id="funcWindow">
+        <li id="imageAndUserName">
+            <img th:src="${session.user.user.headImageAddress}">
+            <span th:text="${session.user.user.userName}+'@'+${session.user.user.accountID}" id="userName"></span>
+        </li>
+        <li>微信</li>
+        <li>QQ</li>
+        <li>搜索班群</li>
+        <li>客服</li>
+    </ul>
+</div>
+<!--    private String accountID;-->
+<!--    private String password;-->
+<!--    private String userName;-->
+<!--    private String headImageAddress;-->
+<div id="app">
+    <div id="user">
+        <ul id="userList">
+            <li th:each="user:${session.user.userList}">
+                <img th:src="${user.headImageAddress}" th:alt="${user.userName}+'@'+${user.accountID}"/><em th:text="${user.userName}"></em>
+                <div class="mask"><i></i></div>
+            </li>
+
+        </ul>
+    </div>
+    <div id="privateChatBox">
+        <div id="chatBox">
+            <div id="showBox">
+                <table id="defaultShowBox">
+                    <h1>聊天室</h1>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="userChooseBox">聊天对象选择
+                <span class="laba"></span>
+            </div>
+            <div id="editBox">
+                <textarea style="outline:none; border-width: 0; width:100%; height: 100%;resize: none;"></textarea>
+                <div id="close">关闭</div>
+                <div id="send">发送</div>
+            </div>
+        </div>
+    </div>
+    <div id="publicChatBox">
+        <div id="laba">
+            <div id="signal">喇叭</div>
+        </div>
+        <div id="p_showBox"></div>
+        <div id="extraTool">额外带扩展窗口</div>
+    </div>
+</div>
+</body>
+</html>

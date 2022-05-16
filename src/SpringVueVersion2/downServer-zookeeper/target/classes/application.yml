@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+#    zookeeper结点名字
+    name: downServer
+
+  cloud:
+    zookeeper:
+      connect-string: 192.168.20.168:2181,192.168.20.168:2182,192.168.20.168:2183
+#采用Feign进行访问时，默认RestTemplate超过1s无法返回申请，则直接报错
+#有趣的是，直接使用RestTemplate并不会有时间限制
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+#feign调用时，允许Hystrix进行服务降级等操作
+feign:
+  hystrix:
+    enabled: true

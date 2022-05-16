@@ -1,0 +1,6 @@
+org\example\common\entity\websocket\PrivateMessage.class
+org\example\common\entity\servlet\SessionAttribute.class
+org\example\common\entity\Message.class
+org\example\common\entity\websocket\Message.class
+org\example\common\entity\User.class
+org\example\common\entity\websocket\Connect.class
